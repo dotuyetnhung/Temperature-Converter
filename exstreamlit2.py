@@ -40,8 +40,6 @@ with st.form('my form'):
         st.success("Form Subimitted Sucessfully")
         st.write(data)
 
-        df = pd.DataFrame(data, index=[0])
-        df.to_excel('Info.xlsx')
 
     
     
